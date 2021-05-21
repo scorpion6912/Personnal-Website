@@ -1,0 +1,21 @@
+* {
+    /*border: 1px red solid;*/
+    padding: 0;
+} 
+
+main .contact ul li {
+    display: flex;
+    align-self: center;
+    margin-left: 13vw;
+}
+
+main .contact ul li img{
+    width: 10vh;
+    margin-right: 13vw;
+}
+
+main .contact ul {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
