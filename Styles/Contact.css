@@ -1,7 +1,16 @@
-* {
-    /*border: 1px red solid;*/
+/** {
+    border: 1px red solid;
     padding: 0;
-} 
+} */
+body {
+    background-image: url(../Assets/whiteBack.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main .contact{
+    margin-top: 23vh;
+}
 
 main .contact ul li {
     display: flex;
@@ -9,8 +18,12 @@ main .contact ul li {
     margin-left: 13vw;
 }
 
+main .contact ul li {
+    font-size: 20px;
+}
+
 main .contact ul li img{
-    width: 10vh;
+    width: 13vh;
     margin-right: 13vw;
 }
 
@@ -18,4 +31,13 @@ main .contact ul {
     display: flex;
     justify-content: space-between;
     align-self: center;
+}
+
+main .contact ul li p a {
+    transition: 0.5s ease-in-out;
+}
+
+main .contact ul li p a:hover{
+    background-color: darkgrey;
+    border: solid 1px black;
 }

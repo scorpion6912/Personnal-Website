@@ -2,3 +2,9 @@
     list-style: none;
     border: solid red 1px;
 }*/
+
+body {
+    background-image: url(../Assets/whiteBack.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
