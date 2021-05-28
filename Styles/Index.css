@@ -8,3 +8,50 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+main .introduce {
+    text-align: center;
+    padding: 0%;
+    margin: 2vw;
+}
+
+main .introduce h2{
+    color: darkred;
+    text-decoration: underline;
+}
+
+main .introduce p{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+main .top {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .top .picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .top .picture img{
+    width: 25vw;
+    border-radius: 3%;
+}
+
+main .skills ul li {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 2vw;
+}
+
+main .skills ul li img {
+    width: 9vw;
+    margin-right: 1vw;
+}
