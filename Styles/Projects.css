@@ -8,3 +8,27 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.top {
+    background-image: url(../Assets/python.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    margin: 6vw;
+}
+
+.top h2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 3vw;
+    color: darkred;
+}
+
+.top p {
+    font-size: 23px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    text-align: center;
+    font-weight: bold;
+}

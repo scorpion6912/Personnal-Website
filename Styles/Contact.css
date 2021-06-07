@@ -31,6 +31,7 @@ main .contact ul {
     display: flex;
     justify-content: space-between;
     align-self: center;
+    margin: 2vw;
 }
 
 main .contact ul li p a {
