@@ -10,12 +10,15 @@ body {
 
 main .contact{
     margin-top: 23vh;
+    border: 5px solid darkred;
+    border-radius: 50%;
 }
 
 main .contact ul li {
     display: flex;
     align-self: center;
     margin-left: 13vw;
+
 }
 
 main .contact ul li {
